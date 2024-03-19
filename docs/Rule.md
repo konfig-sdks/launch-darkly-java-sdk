@@ -1,0 +1,19 @@
+
+
+# Rule
+
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**description** | **String** | The rule description |  [optional] |
+|**id** | **String** | The flag rule ID |  [optional] |
+|**variation** | **Integer** | The index of the variation, from the array of variations for this flag |  [optional] |
+|**rollout** | [**Rollout**](Rollout.md) |  |  [optional] |
+|**clauses** | [**List&lt;Clause&gt;**](Clause.md) | An array of clauses used for individual targeting based on attributes |  |
+|**trackEvents** | **Boolean** | Whether LaunchDarkly tracks events for this rule |  |
+|**ref** | **String** |  |  [optional] |
+
+
+

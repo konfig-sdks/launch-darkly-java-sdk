@@ -1,0 +1,22 @@
+
+
+# ProjectRep
+
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**tags** | **List&lt;String&gt;** | A list of tags for the project |  |
+|**links** | [**Map&lt;String, Link&gt;**](Link.md) | The location and content type of related resources |  |
+|**id** | **String** | The ID of this project |  |
+|**key** | **String** | The key of this project |  |
+|**includeInSnippetByDefault** | **Boolean** | Whether or not flags created in this project are made available to the client-side JavaScript SDK by default |  |
+|**defaultClientSideAvailability** | [**ClientSideAvailability**](ClientSideAvailability.md) |  |  [optional] |
+|**name** | **String** | A human-friendly name for the project |  |
+|**access** | [**Access**](Access.md) |  |  [optional] |
+|**defaultReleasePipelineKey** | **String** | The key of the default release pipeline for this project |  [optional] |
+|**environments** | [**List&lt;Environment&gt;**](Environment.md) | A list of environments for the project |  |
+
+
+

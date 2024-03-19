@@ -1,0 +1,23 @@
+
+
+# ContextKindRep
+
+
+## Properties
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**description** | **String** | The context kind description |  |
+|**version** | **Integer** | The context kind version |  |
+|**key** | **String** | The context kind key |  |
+|**name** | **String** | The context kind name |  |
+|**creationDate** | **Long** |  |  |
+|**lastModified** | **Long** |  |  |
+|**lastSeen** | **Long** |  |  [optional] |
+|**createdFrom** | **String** |  |  |
+|**hideInTargeting** | **Boolean** | Alias for archived. |  [optional] |
+|**archived** | **Boolean** | Whether the context kind is archived. Archived context kinds are unavailable for targeting. |  [optional] |
+|**links** | [**Map&lt;String, Link&gt;**](Link.md) | The location and content type of related resources |  [optional] |
+
+
+
